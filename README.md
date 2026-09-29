@@ -2,7 +2,8 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
-
+When I run the game everything initially looks correct, but as soon as you start moving the cat everything goes wrong. You see the cat moving yet the camera remains in a fixed position. The controls for the cat still work one hindred percent correctly, but the camera is now in a fixed location.
+https://lapismercy.itch.io/mcgilljweek1cat
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
