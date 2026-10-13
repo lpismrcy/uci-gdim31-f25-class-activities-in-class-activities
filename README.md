@@ -15,7 +15,6 @@ Create future Devlog sub-headers with the three # symbols, then write your Devlo
 1c. Output would be a boolean, input is time based then it is most likely a float.
 
 2. Components are video game charcters, classes are the spells that character can use, the member variables are the stats of the spell, and the methods are the status effects.
-1. 
 3. I think the balls got extremely bright because if the average of the speed (the x and y) was greater than the threshold the brightness would be mutiplied by 1.5. If this kept happening it would get very bright.
 
 
