@@ -44,8 +44,25 @@ public class CatW5 : MonoBehaviour
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
         Vector3 translation = Vector3.zero;
-        
 
+        float direction = 1;
+
+        if (_flipWSControls)
+        {
+            direction = -1;
+        }
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            translation.z = 1 * direction;
+        }
+        transform.Translate(translation * _moveSpeed * Time.deltaTime);
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            translation.z = -1 * direction;
+        }
+        transform.Translate(translation * _moveSpeed * Time.deltaTime);
 
         // STEP 1 & 2 ---------------------------------------------------------
 

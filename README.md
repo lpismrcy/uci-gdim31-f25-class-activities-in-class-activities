@@ -24,6 +24,13 @@ Table #14
 1. We decided to add rigidbodies to both the cat and the ball as they need to move and react when hitting other objects. The goal has the Is Trigger on because it needs to know when the ball enters the area so it can change the point balue, and time sinse last goal value. It does not need to physically interact with the ball or cat.
 2. I had a whole dilema with trying to get my cat collider to properly work and not rotate by itself automatically. After reciving help both from the assistants, and the proffesor, I fixed the problem by modifying my capsule collider. It was too big causing the rotating problem.
 
+### W5
+N/A
+
+### W6
+Member Variables: The class needs a gameObject variable to see which object to walk to (which you can change in inspector).
+Methods: The class needs the Start method to get the navMeshAgent and start moving to the game object selected in the member variable above. Doesn't need anything else because it doesn't change speed/direction midway through.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
