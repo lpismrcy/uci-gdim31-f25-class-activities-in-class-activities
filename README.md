@@ -28,8 +28,13 @@ Table #14
 N/A
 
 ### W6
-Member Variables: The class needs a gameObject variable to see which object to walk to (which you can change in inspector).
+Member Variables: The class needs a gameObject variable to see which object to walk to (which you can change in inspector). Also need a player variable as we need to get the players position to know where the bat needs to move.
 Methods: The class needs the Start method to get the navMeshAgent and start moving to the game object selected in the member variable above. Doesn't need anything else because it doesn't change speed/direction midway through.
+
+### W7
+https://docs.google.com/document/d/12l7FHfmPBRSnvi6Jb-3WfliCk0vT8dCjRlWnLtkU3Pc/edit?usp=sharing Catgory: Math
+Member Variables: Need a speed variable to determine how quick the bats move. Need a player/target variable so the bats can be assigned where to go.
+Methods: Need a Start(); method to declare the speed variable. Need a method that can be turned on and off that determines when the bat should chase the player, and the details about when. This method needs to be in Update() as it needs to constantly be checking when to go to the player. Need a method that can enable/disable this componet of the bat.
 
 ## Open-Source Assets
 ### W1
